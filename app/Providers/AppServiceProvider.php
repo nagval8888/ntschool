@@ -13,7 +13,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        // Подключили файл с функциями глобально.
+        require_once(app_path().'/helpers.php') ;
     }
 
     /**
